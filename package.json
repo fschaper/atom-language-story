@@ -1,0 +1,21 @@
+{
+  "name": "language-story",
+  "version": "1.0.0",
+  "private": false,
+  "description": "user story syntax highlighting",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fschaper/atom-language-story.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": "*"
+  },
+  "dependencies": {},
+  "readme": "# Atom user story syntax highlighting\n\nAtom syntax highlighting for user stories.\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/fschaper/atom-language-story/issues"
+  },
+  "homepage": "https://github.com/fschaper/atom-language-story"
+}
