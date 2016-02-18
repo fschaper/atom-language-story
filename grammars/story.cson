@@ -1,0 +1,23 @@
+'name': 'User Story'
+'fileTypes': [
+  'story'
+]
+'patterns': [
+  {
+    'match': '^(?i)\\s*(as )?(a|an|the)?(\\s\\S+)((?:(?!so that).)*)?(so that)?(.*)',
+    'captures':
+      '1':
+        'name': 'comment'
+      '2':
+        'name': 'comment'
+      '3':
+        'name': 'constant'
+      '4':
+        'name': 'variable'
+      '5':
+        'name': 'comment'
+      '6':
+        'name': 'variable'
+  }
+]
+'scopeName': 'source.story'

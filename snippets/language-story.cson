@@ -1,0 +1,7 @@
+'.source.story':
+  'As an <ROLE>, I want <GOAL> so that <REASON>':
+    'prefix': 'asn'
+    'body': 'As an ${1:USER} I want ${2:GOAL} so that ${3:REASON}.$4'
+  'As a <ROLE>, I want <GOAL> so that <REASON>':
+    'prefix': 'asa'
+    'body': 'As a ${1:ROLE} I want ${2:GOAL} so that ${3:REASON}.$4'
