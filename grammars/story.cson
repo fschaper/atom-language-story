@@ -4,7 +4,7 @@
 ]
 'patterns': [
   {
-    'match': '^(?i)\\s*(as )?(a|an|the)?(\\s\\S+)((?:(?!so that).)*)?(so that)?(.*)',
+    'match': '^(?i)\\s*(as )?(?:(a|an|the)\\s)?(\\w+)((?:(?!so that).)*)?(so that)?(.*)',
     'captures':
       '1':
         'name': 'comment'
