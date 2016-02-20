@@ -14,5 +14,13 @@
   "bugs": {
     "url": "https://github.com/fschaper/atom-language-story/issues"
   },
-  "homepage": "https://github.com/fschaper/atom-language-story"
+  "main": "./lib/main",
+  "homepage": "https://github.com/fschaper/atom-language-story",
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "getProvider"
+      }
+    }
+  }
 }
