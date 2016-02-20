@@ -1,6 +1,6 @@
 {
   "name": "language-story",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "user story syntax highlighting",
   "repository": {
     "type": "git",
@@ -14,5 +14,13 @@
   "bugs": {
     "url": "https://github.com/fschaper/atom-language-story/issues"
   },
-  "homepage": "https://github.com/fschaper/atom-language-story"
+  "main": "./lib/main",
+  "homepage": "https://github.com/fschaper/atom-language-story",
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "getProvider"
+      }
+    }
+  }
 }
