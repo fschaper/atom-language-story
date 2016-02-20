@@ -8,6 +8,9 @@ module.exports =
   inclusionPriority: 1
   excludeLowerPriority: false
 
+  # Tell autocomplete to fuzzy filter the results of getSuggestions()
+  filterSuggestions: true
+
   isRolePosition: (editor, bufferPosition) ->
     rolePosition = ///^                 # beginning of the line
                     \s*                 # skip 0 to n whitespaces at the beginning
