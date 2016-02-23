@@ -18,13 +18,18 @@ a user would like to have syntax highlighting
 ```
 
 The representation in atom using the solarized-dark syntax theme:
-![sample image](support/sample.jpg?raw=true)
+![sample image](https://raw.githubusercontent.com/fschaper/atom-language-story/master/support/sample.jpg)
 
 ## Snippets
 
-Currently two expansions are offered:
-- `asn` will expand to `As an {USER} I want {GOAL} so that {REASON}.`
+Currently three expansions are offered:
+- `asn` will expand to `As an {ROLE} I want {GOAL} so that {REASON}.`
 - `asa` in turn will expand to `As a {ROLE} I want {GOAL} so that {REASON}.`
+- 'ast' expands to `As the <ROLE>, I want <GOAL> so that <REASON>.`
+
+## Autocomplete
+
+There is autocomplete support for the users role.
 
 ## Reference Material
 

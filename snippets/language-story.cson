@@ -5,3 +5,6 @@
   'As a <ROLE>, I want <GOAL> so that <REASON>':
     'prefix': 'asa'
     'body': 'As a ${1:ROLE} I want ${2:GOAL} so that ${3:REASON}.$4'
+  'As the <ROLE>, I want <GOAL> so that <REASON>':
+    'prefix': 'ast'
+    'body': 'As the ${1:ROLE} I want ${2:GOAL} so that ${3:REASON}.$4'
