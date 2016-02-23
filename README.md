@@ -25,7 +25,7 @@ The representation in atom using the solarized-dark syntax theme:
 Currently three expansions are offered:
 - `asn` will expand to `As an {ROLE} I want {GOAL} so that {REASON}.`
 - `asa` in turn will expand to `As a {ROLE} I want {GOAL} so that {REASON}.`
-- 'ast' expands to `As the <ROLE>, I want <GOAL> so that <REASON>.`
+- `ast` expands to `As the <ROLE>, I want <GOAL> so that <REASON>.`
 
 ## Autocomplete
 
